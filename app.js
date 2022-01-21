@@ -4,7 +4,7 @@ const port=4000;
 const path = require("path");
 // const hbs=require("hbs");
 
-const staticPath = path.join(__dirname, "../public");
+const staticPath = path.join(__dirname, "./public");
 
 // const view = path.join(__dirname, "../templates/views");
 // const particalPath = path.join(__dirname, "../templates/partials");
