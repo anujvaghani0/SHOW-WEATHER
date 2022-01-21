@@ -2,7 +2,7 @@ const express=require("express")
 const app=express();
 const port=4000;
 const path = require("path");
-const hbs=require("hbs");
+// const hbs=require("hbs");
 
 const staticPath = path.join(__dirname, "../public");
 
