@@ -1,14 +1,18 @@
 {
-  "name": "expressweb",
+  "name": "show-weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "show-weather",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://show-weather.scm.azurewebsites.net:443/show-weather.git"
+  },
   "author": "Anuj",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.2"
   }
