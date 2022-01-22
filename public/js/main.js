@@ -8,10 +8,9 @@ const temp_val=document.getElementById('temp_val');
 const datahide=document.querySelector('.middle_layer');
 
 
-
 const getInfo = async(event)=>{
-    event.preventDefault(); 
     let cityVal=cityname.value;
+    event.preventDefault(); 
     if(cityVal === ""){
         city_name.innerText =`plese write the city name before search`;
         datahide.classList.add('data_hide');
