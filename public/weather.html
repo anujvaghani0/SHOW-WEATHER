@@ -101,11 +101,50 @@
      days=week[currentTime.getDay()];
      let day=document.getElementById('day');
      day.innerText=days;
+    //  var month=currentTime.getUTCMonth()+1;
+    //  var date=currentTime.getUTCDate();
+    //  var year=currentTime.getUTCFullYear();
+    //  let c=date+"-"+month+"-"+year;
+    //  let today_date=document.getElementById('today_date');
+    //  c.toString();
+    //  today_date.innerText=c;
+
+
 //      const d = new Date();
 //          d.setDate(0);
 // document.getElementById("today_date").innerHTML = d;
+        
   };
   getCurrentDay();
+
+
+  const getCurrentDate=()=>{
+      var months=[
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ];
+      
+     let current=new Date();
+     var month=months[current.getMonth()];
+     var date=current.getDate();
+    //  var time=current.getHours();
+     let c=date+ " " + month;
+     let today_date=document.getElementById('today_date');
+     c.toString();
+     today_date.innerText=c;
+        
+  };
+  getCurrentDate();
 </script>
 
 
