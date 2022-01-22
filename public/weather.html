@@ -120,24 +120,24 @@
 
   const getCurrentDate=()=>{
       var months=[
-        "January",
-        "February",
-        "March",
-        "April",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
         "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
       ];
       
      let current=new Date();
      var month=months[current.getMonth()];
      var date=current.getDate();
-    //  var time=current.getHours();
+     var time=current.getHours();
      let c=date+ " " + month;
      let today_date=document.getElementById('today_date');
      c.toString();
