@@ -123,6 +123,7 @@ html{
    width:100%;
    height: 20%;
    background-color: #009ad8;
+   /* color: #1e202b; */
    display: flex;
    justify-content: space-between;
    align-items: center;
