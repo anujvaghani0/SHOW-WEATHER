@@ -255,6 +255,23 @@ footer p{
     color:  rgb(97, 218, 251);
 }
 
+
+
+.footer__socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    color:  whitesmoke;
+    margin-top: 5px;
+    font-size: 1.9rem;
+}
+
+.footer__socials :hover{
+    color:  rgb(97, 218, 251);
+}
+
 @media (max-width:768px) {
     .main_header_left{
         height: auto;
