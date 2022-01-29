@@ -3,6 +3,7 @@
 ## Built with
 - [node](https://nodejs.org/en/)
 - [express](https://expressjs.com/)
+- [WetherAPI](https://openweathermap.org/api)
 ## Set up your local environment
 
 Clone the project
