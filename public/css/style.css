@@ -240,6 +240,20 @@ footer p{
     line-height: 5rem;
     font-size: 1.4rem;
 } 
+.footer__socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    color:  whitesmoke;
+    margin-top: 5px;
+    font-size: 1.9rem;
+}
+
+.footer__socials :hover{
+    color:  rgb(97, 218, 251);
+}
 
 
 
